@@ -3,64 +3,457 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* .container {
+    width: 880px;
+    margin: auto;
+}
+
+header {
+    padding: 20px 20px 20px;
+}
+
+nav {
+    display: inline-block;
+    width: 75%;
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    padding: 0px 25px 0px;
+}
+
+.intro-container {
+    text-align: center;
+}
+
+.intro {
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+    padding: 0px 0px 40px;
+}
+
+.intro h1 {
+    font-size: 50pt;
+}
+
+.intro-image {
+    display: inline-block;
+    width: 30%;
+    padding: 20px 10px 10px 20px;
+}
+
+.intro button {
+    padding: 5px 40px 5px;
+    border: 1px solid black;
+    font-family: “Titillium Web”;
+}
+
+header p {
+    text-align: center;
+    border: 1px solid black;
+    width: 150px;
+}
+
+.top-part {
+    border-top: 1px solid black;
+    padding: 30px 0 30px;
+}
+
+.top-part .features {
+    display: inline-block;
+    width: 49%;
+    margin-right: 5px;
+}
+
+.top-part .about {
+    display: inline-block;
+    width: 49%;
+}
+
+.picture-box {
+    display: block;
+}
+
+.middle-image {
+    display: block;
+    width: 100%;
+}
+
+.bottom-part {
+    border-bottom: 1px solid black;
+    padding: 20px 0 30px;
+}
+
+.bottom-part .services {
+    display: inline-block;
+    width: 32%;
+}
+
+.bottom-part .product {
+    display: inline-block;
+    width: 32%;
+    margin: 0px 10px 0px;
+}
+
+.bottom-part .vision {
+    display: inline-block;
+    width: 32%;
+}
+
+.contact-info {
+    margin-top: 30px;
+}
+
+footer p a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+*/
+
+p {
+    font-size: 1rem;
+}
+
+body {
+    margin: 0 17% 0 17%;
+    line-height: 1.4rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+header {
+    padding: 3%;
+}
+
+
+/* header-section */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+a {
+    padding-right: 1rem;
+    text-decoration: none;
+    color: grey;
+}
+
+header {
+    display: flex;
+}
+
+
+/* hero-section */
+
+.logo {
+    padding-left: 20%;
+}
+
+.hero {
+    border-bottom: 1px solid black;
+    margin: 1rem 0 1rem 0;
+    padding-bottom: 1rem;
+}
+
+.uvp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uvp h1 {
+    font-size: 4.2rem;
+    text-align: center;
+}
+
+button {
+    width: 75%;
+    text-align: center;
+    background: none;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+
+/* top-content-section */
+
+.top-content-section {
+    display: flex;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+
+
+/* middle-image */
+
+.middle-image {
+    text-align: center;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+
+
+/* bottom-content-section */
+
+.bottom-content-section {
+    display: flex;
+    margin-top: 1%;
+    border-bottom: 1px solid black;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+
+
+/* footer-section */
+
+footer {
+    font-size: 1.6rem;
+}
+
+.email-address,
+.phone-number {
+    color: black;
+}
+
+.copyright {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+
+/* SERVICE PAGE */
+
+
+/* row */
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.service-box {
+    margin: 1rem 0 1rem 0;
+    background-color: #F4F3F4;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 47%;
+}
+
+.bottom-facts-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding-top: 1rem;
+}
+
+.facts {
+    width: 47%;
+}
+
+.bottom-image {
+    width: 47%;
+}
+
+.button {
+    width: 35%;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ul {
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+}
