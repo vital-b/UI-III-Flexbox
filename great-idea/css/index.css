@@ -278,6 +278,10 @@ p {
     font-size: 1rem;
 }
 
+h1 {
+    line-height: 3.5rem;
+}
+
 body {
     margin: 0 17% 0 17%;
     line-height: 1.4rem;
@@ -325,6 +329,12 @@ header {
 
 /* hero-section */
 
+.hero-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
 .logo {
     padding-left: 20%;
 }
@@ -363,6 +373,8 @@ button {
     margin-top: 3%;
     padding-bottom: 3%;
     margin-bottom: 3%;
+    border-top: 1px solid black;
+    padding-top: 1rem;
 }
 
 
@@ -370,8 +382,7 @@ button {
 
 .middle-image {
     text-align: center;
-    padding-bottom: 3%;
-    margin-bottom: 3%;
+    width: 100%;
 }
 
 
@@ -383,6 +394,12 @@ button {
     border-bottom: 1px solid black;
     padding-bottom: 3%;
     margin-bottom: 3%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.home-box {
+    width: 30%;
 }
 
 
@@ -454,6 +471,6 @@ ul {
     margin-top: 1rem;
 }
 
-footer {
+.service-footer {
     text-align: center;
 }
